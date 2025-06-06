@@ -1,0 +1,68 @@
+# app-ads.txt file for IAZ IQ Language Learning App
+# Based on official Appodeal documentation: https://faq.appodeal.com/en/articles/3183799-app-ads-txt-support
+# 
+# IMPORTANT NOTICE:
+# This file must be uploaded to the ROOT of your developer website
+# Example: yourdomain.com/app-ads.txt
+# 
+# REQUIRED STEPS TO COMPLETE:
+# 1. Add developer website URL to Google Play and App Store app listings
+# 2. Upload this file to the root path of your developer website
+# 3. Wait at least 24 hours for ad networks to crawl and verify the file
+# 
+# MISSING REQUIREMENT:
+# Developer website URL is not yet configured in app store listings
+# Please add website to Google Play Console and App Store Connect
+# 
+# STATUS: FILE CREATED BUT NOT DEPLOYED - REQUIRES DEVELOPER WEBSITE
+
+# Required OwnerDomain field according to IAB specifications
+# Replace [YOURDOMAIN.COM] with your actual developer website domain
+OWNERDOMAIN=[YOURDOMAIN.COM]
+
+# Download latest Appodeal app-ads.txt from: https://app.appodeal.com/user_profile/ads_txt
+# The entries below are from the official Appodeal documentation but may need updating
+
+# Appodeal entries (replace with actual publisher ID when available)
+appodeal.com, [YOUR_PUBLISHER_ID], DIRECT
+
+# AdMob entries (replace Publisher ID with your actual AdMob publisher ID)
+# From: https://support.google.com/admob/answer/9363762
+google.com, pub-[YOUR_ADMOB_PUBLISHER_ID], DIRECT, f08c47fec0942fa0
+
+# Meta/Facebook entries (replace Business ID with your Meta Business ID)  
+# From: https://docs.appodeal.com/networks-setup/ad-networks/network-connection/meta-audience
+facebook.com, [YOUR_META_BUSINESS_ID], RESELLER, c3e20eee3f780d68
+
+# Unity Ads entries
+# From: https://docs.appodeal.com/networks-setup/unityads
+unityads.unity3d.com, [YOUR_UNITY_GAME_ID], RESELLER, 96cabb5fbdde37a7
+
+# AppLovin entries
+# From: https://docs.appodeal.com/networks-setup/ad-networks/network-connection/applovin
+applovin.com, [YOUR_APPLOVIN_SDK_KEY], RESELLER
+
+# IronSource entries (example from their documentation)
+ironsrc.com, [YOUR_IRONSOURCE_PUBLISHER_ID], DIRECT
+rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
+video.unrulymedia.com, 2464975885, RESELLER
+
+# Additional major ad networks commonly used with Appodeal
+bidmachine.io, [PUBLISHER_ID], RESELLER
+criteo.com, [NETWORK_ID], RESELLER, 9fac4a4a87c2a44f
+openx.com, [PUBLISHER_ID], RESELLER, 6a698e2ec38604c6
+pubmatic.com, [PUBLISHER_ID], RESELLER, 5d62403b186f2ace
+smaato.com, [PUBLISHER_ID], RESELLER, 07bcf65f187117b4
+smartadserver.com, [NETWORK_ID], RESELLER, 060d053dcf45cbf3
+xandr.com, [MEMBER_ID], RESELLER, f5ab79cb980f11d1
+
+# NEXT STEPS:
+# 1. Set up developer website (required for app-ads.txt functionality)
+# 2. Get actual publisher/network IDs from each ad network account
+# 3. Replace placeholder values with real IDs
+# 4. Upload to yourwebsite.com/app-ads.txt
+# 5. Update app store listings with website URL
+# 6. Wait 24+ hours for ad networks to crawl and verify
+
+# For complete and up-to-date entries, contact your account managers at each ad network
+# or download the latest version from Appodeal dashboard 
