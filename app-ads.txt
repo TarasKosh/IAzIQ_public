@@ -28,7 +28,7 @@ appodeal.com, [YOUR_PUBLISHER_ID], DIRECT
 
 # AdMob entries (replace Publisher ID with your actual AdMob publisher ID)
 # From: https://support.google.com/admob/answer/9363762
-google.com, pub-[YOUR_ADMOB_PUBLISHER_ID], DIRECT, f08c47fec0942fa0
+google.com, pub-6833589998821553, DIRECT, f08c47fec0942fa0
 
 # Meta/Facebook entries (replace Business ID with your Meta Business ID)  
 # From: https://docs.appodeal.com/networks-setup/ad-networks/network-connection/meta-audience
