@@ -1,24 +1,6 @@
 # app-ads.txt file for IAZ IQ Language Learning App
-# Based on official Appodeal documentation: https://faq.appodeal.com/en/articles/3183799-app-ads-txt-support
-# 
-# IMPORTANT NOTICE:
-# This file must be uploaded to the ROOT of your developer website
-# Example: yourdomain.com/app-ads.txt
-# 
-# REQUIRED STEPS TO COMPLETE:
-# 1. Add developer website URL to Google Play and App Store app listings
-# 2. Upload this file to the root path of your developer website
-# 3. Wait at least 24 hours for ad networks to crawl and verify the file
-# 
-# MISSING REQUIREMENT:
-# Developer website URL is not yet configured in app store listings
-# Please add website to Google Play Console and App Store Connect
-# 
-# STATUS: FILE CREATED BUT NOT DEPLOYED - REQUIRES DEVELOPER WEBSITE
-
-# Required OwnerDomain field according to IAB specifications
 # Replace [YOURDOMAIN.COM] with your actual developer website domain
-OWNERDOMAIN=[YOURDOMAIN.COM]
+OWNERDOMAIN=[https://taraskosh.github.io/IAzIQ_public/]
 
 # Download latest Appodeal app-ads.txt from: https://app.appodeal.com/user_profile/ads_txt
 # The entries below are from the official Appodeal documentation but may need updating
